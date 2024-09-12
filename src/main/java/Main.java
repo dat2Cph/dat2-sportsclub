@@ -8,7 +8,7 @@ public class Main {
 
     private final static String USER = "dev";
     private final static String PASSWORD = "ax2";
-    private final static String URL = "jdbc:mysql://localhost:3306/sportsclub?serverTimezone=CET&useSSL=false&allowPublicKeyRetrieval=true";
+    private final static String URL = "jdbc:postgresql://localhost:5432/sportsclub";
 
     public static void main(String[] args) {
 
