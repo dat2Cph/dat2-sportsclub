@@ -26,7 +26,7 @@ datamappers for some of the other entities in the database.
 ### Add some nice queries
 
 Add some of these methods to the MemberMapper class. As many as you can, and begin
-querying in Workbench to fine tune your sql-statements:
+querying in pgAdmin to fine tune your sql-statements:
 
 7) Find the number of participants on each team
 8) Find the number of participants for each sport
