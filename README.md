@@ -51,8 +51,8 @@ Hint: It might be useful to create a view with lots of joins
 
 ### Add some DTO-classes and methods
 17) Add a new package called dto
-18) In your dto package add a new class called "MemberAndSportsDTO". The class should have an attribute called member and an attribute called sports. The latter is a list of sports that the member plays
-19) Add construcktor and getter/setters to your class
+18) In your dto package make a dto either as a record or as a new class. Call it "MemberAndSportsDTO". The dto should have an attribute called member and an attribute called sports. The latter is a list of sports that the member plays
+19) If you used a class, add construcktor and getter/setters 
 20) Make a method getMemberAndSportsById(int id) to your MemberMapper
 21) The method should return a MemberAndSportsDTO with a member and a list of the sports that the member plays
 
