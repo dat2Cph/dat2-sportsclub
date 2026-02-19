@@ -47,11 +47,11 @@ Hint: It might be useful to create a view with lots of joins
 15) Add a new method to the RegistrationMapper called getAllRegistrations() that returns an arraylist of registrations.
 16) You might want to pimp the getAllRegistrations so that you can print out more
     than just the (member_id, team_id) data. It would be lovely with a list of member names
-    and team name etc.
+    and team name etc. If you need help to solve this - then jump to the next section with `DTOs`. That a good way to handle odd numbers of columns in Java.
 
 ### Add some DTO-classes and methods
-17) Add a new package called dto
-18) In your dto package make a dto either as a record or as a new class. Call it "MemberAndSportsDTO". The dto should have an attribute called member and an attribute called sports. The latter is a list of sports that the member plays
+17) Add a new package called `dtos`
+18) In your `dtos` package make a dto either as a record or as a new class. Call it "MemberAndSportsDTO". The dto should have an attribute called member and an attribute called sports. The latter is a list of sports that the member plays
 19) If you used a class, add construcktor and getter/setters 
 20) Make a method getMemberAndSportsById(int id) to your MemberMapper
 21) The method should return a MemberAndSportsDTO with a member and a list of the sports that the member plays
